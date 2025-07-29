@@ -1,0 +1,51 @@
+Clase 1 Coder House Javascript
+3 actividades entregables (la primera en 3 clases)
+
+// justificar acciones que se hagan de mas en un proyecto
+
+Proyecto final : 
+Aplicacion web interactiva
+
+(Las primeras 2 entregas no tienen que ser obligatorias referidas al proyecto final pero la segunda se recomienda que si)
+    Carrito de compras !No
+    juego
+    buscador de hoteles
+    reservas
+    memory card 
+    reproductor de musica
+bradtravers/50projects50days
+
+// se usan Fetch,JSON, librerias
+
+1°Unidad 4 (Estructura html CSS, estructuras JS)
+2°Unidad 7 (Usar DOM JSON storage eventos)
+3°Unidad 10 (Proyecto Final)
+
+sass
+*Estetica no calificable de css*
+
+Cheat Sheet > Emmet leer documentacion 
+
+https://netlify.app
+
+//  variables
+
+En el curso no se utilizara VAR 
+
+let apellido = "Blanco"
+apellido = "Gonzalez"
+const PI = 3.14 (min 22:23)
+
+// salidas
+
+alert()
+alert("ejemplo cadena de texto")
+console.log("cadena de texto")
+console.log(variable)
+
+// entradas
+
+prompt("se pide ingresar una entrada")
+let nombre = prompt("ingresar nombre")
+
+
