@@ -1,0 +1,66 @@
+Clase vivo Unidad 4
+
+Arrays 
+const Vacio[]
+
+const  numeros = [10, 30, 40 ,70];
+array de numeros
+
+array mixto
+const mixto =  [1, "dos", true, null];
+
+Los arrays devuelven un tipo de dato Object.
+
+---------------------- METODOS DE ARRAYS  --------------------           [ ]
+
+console.table(array) muestra una tabla 
+
+metodo pop elimina el utimo
+
+metodo unshift agrega al principio del array
+array.unshift()
+metodo shift elimina el primer elemento del array
+array.shift()
+
+IndexOf develve la pos de un elemento
+const PosElem = Array.indexOf("elemento")
+
+Join une todos los elementos en un string
+const cadena = array.join(" | ");  separa e array con | y crea un string con lls elementos totales
+
+Includes se fija si el array contiene lo que le preguntamos
+const boolen = array.includes("elemento");
+
+--------------------------- OBJETOS  ----------------------------------    { }
+
+const cancion = { }   // objeto Vacio
+const cancion = {
+    titulo: 'La flaca',
+    artista: 'xxxx',
+    duracion: '220',
+}
+console.log(cancion.titulo)  // console.log(cancion['artitsta'])   ambas devuelven el valor de cada elemento
+
+cancion['duracion'] = 200;   // cambia el valor de ese elemento
+          //
+cancion.año = 2020  // le creas al objeto un valor   
+ 
+
+
+
+ Entrega 7 dias
+ ejemplo de agregar  canciones
+
+ 3 funciones recomedadas
+ for/while if/switch se puede 1 de cada
+ defer puesto
+ linkeado css si o si
+ enlaze a repositorio de git hub
+ LLamar a las funcones creadas
+ ejemplos
+ guarda canciones en un array
+ flujo de datos de cajero automatioc
+
+ descripcion del programa
+
+

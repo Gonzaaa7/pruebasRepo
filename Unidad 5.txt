@@ -1,0 +1,95 @@
+Funciones Constructoras y Almacenamiento
+
+Datos primitivos
+//copia por valor
+
+c = 5
+d = c
+
+Datos complejos
+copia por referencia
+
+let obj1 = {x:10, y:5}  //  => 0xf66782
+let obj2 = obj1  // tienen la misma direcion de memoria
+
+si
+obj2.x= 8 // cambiaron los valores de x para obj1 y obj2
+
+los document.query tmb
+
+let encabezado = document.querySelector('h1')    / dir 0xf893398
+encabezado.textContent = "edito"                // dir 0xf893398
+
+en ambos se edita tanto en 
+console.log(document.querySelector('h1'))
+console.log(encabezado.textContent)
+
+const a1 = {a.1, b:5}   /// 0xff663
+a1 = {a:3}   // 0xf6737  Cambio la direcion
+
+Crontruir Objetos y funciones o methodos
+
+Forma sencilla pero una vez que se quiera crear mas de un objeto parecidos tenes q repetir mucho codigo:
+const Obj = {
+    nombre : "...",
+    edad : x,
+    ciudad: "...",
+
+    saludar: function(){
+        alert("hola")
+    }
+}
+Obj.agregado = "valor"
+
+
+Funciones Constructoras
+(Con mayusculas al principio)
+function Cliente(nombre,num){
+    this.nombre = nombre,
+    this.saldo = num,
+
+    this.nombrefuncion = function(){
+        console.log("nombre y saldo son $'this.nombre' y $'this.saldo'")
+    }
+}
+const cliente1 = new Cliente("string",numero);
+const cliente2 = new Cliente("gonzalo",100);
+
+
+
+
+Clases falsas shortintag
+
+class Cliente {
+
+    constructor (nombre,num){
+        this.nombre = nombre;
+        this.edad = num;
+    }
+
+    mensaje(){
+        return "hola $('nombre')"
+    }
+    cumpleaños(){
+        this.edad = this.edad +1
+    }
+    static saludo(){
+        return "funcion estatica"
+    }
+}
+let cliente1 = new Cliente("gonza",23)
+cliente1.cumpleaños()
+Cliente.saludo()
+
+
+window.alert()  == alert()
+probar console.log(window)
+
+localStorage  guardar datos "cadenas de caracteres solamente"
+
+localStorage.setItem
+localStorage.getItem
+localStorage.removeItem("valor")
+localStorage.clear(); vacia todo el local storage
+
+JSON.parse

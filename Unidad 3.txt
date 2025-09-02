@@ -1,0 +1,91 @@
+Funciones 
+function accion(){
+    *codigo de funcion*
+}
+
+accion()   // invocacion de funcion
+
+
+funcion suma(a,b){   // a y b son parametros
+    return a+b;
+}
+suma(x,y)   //  x e y son argumentos
+
+Beneficios de Funciones 
+*Reutilizacion de codigo
+*Modularizacion
+*Abstracion
+
+DRY ("Don't Repeat Yourself")
+No repetir el codigo
+
+KISS ("Keep It Simple, Stupid")
+Mantenerlo Simple
+
+
+// clase en vivo 3    : Funciones
+
+Objetos
+
+let obj = new Persona()   (Son como clases pero no son clases)
+**Type script esta orientado a objetos pero  esta x arriba de js
+
+Githab gitlab usan de fondo Git
+Git lleva un siguimiento de versiones de un codigo en la maquina en LAN, puedo ver como fue evolucionando de forma local(esa evolucion historica de ese cppdigo es personal)
+Es un programa que funciona con la lineas de comando (no es un progrma fisico que se vea)
+Git incluye Git Bash(Terminal)
+La terminal de VSCODE es la de tu dispositivo
+
+Comandos
+git -- version
+git init    Crea un proyecto git
+git branch -m <nombre>
+git status    (lo rojo no tiene seguimiento y lo verde si)
+git add . (con el punto agrego Todo, puedo poner solo una carpeta)
+git commit -m "mensaje del commit"
+git push -u origin main (Recien ahora el repo esta en linea y visibe al resto)
+
+Funciones
+
+function mostrarMensaje(){
+    alert("Mensaje")
+}
+
+mostrarMensaje()   // invocacion de funciom
+
+Hoisting (elevacion)
+hace que las funciones suban arriba de todo el codigo 
+osea que se pueden invocar antes de su creacion en el codigo por que eleva todas las funciones
+afecta a las funciones y a las variables (pero no a los valores)
+por ejemplo un let sumar(){..} no eleva la funcion solo el nombre sumar
+
+las funciones pueden recibir parametros para usarlo con argumentos al invocarla
+let plato = "papa fritas"
+function comer(comida){
+    console.log("voy a comer" + comida)
+}
+comer("fideos")
+comer() // undefinded
+comer(plato) // puede ser variables
+
+console.log(comida)  // por mas que tenga valor asignados en la funcion no esta en el scoop global
+
+function comer(comida = "nada") // valor por defecto de comida, si no se agrega un valor va tomar el de por defecto
+function comer (nombre = "alguien",comida = "nada")
+
+Prompt retorna valores y alert no un prompt tiene un return en su funcion
+funtion Prompt(text){
+    return text
+}
+osea se puede
+let result = Prompt("mensjae")
+console.log(result) // da un valor
+
+aler en cambio es algo como
+
+funtion alert(texto){
+    alert(texto)
+}
+result = alert("mensaje")
+console.log(alert())  // es undefinded ya que no retorna valores
+

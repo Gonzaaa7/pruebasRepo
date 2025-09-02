@@ -1,0 +1,74 @@
+valores igual sin importar tipo  console.log(x=='x')
+Estrictamente igual  ===    console.log(x===y)
+no iguales != 
+extrictamente no iguales console.log(2!=='2') //true
+
+<   <=   >   >=
+
+&& AND
+||  OR
+!  Not
+
+Ciclos y control de flujos
+
+    For
+for (let i = 0; i < X; i++){
+    secuencia que se repite X veces
+}
+    While
+
+while (condicion){
+    se repite hasta que condicion sea Falsa
+}
+    Do While
+
+Do {
+    iteracion de codigo que si o si almenos se itera la primera vez
+} while (condicion);
+
+Break y Continue
+
+for (let i = 0; i < X;i++){
+    if (una condicion de corte){
+        break;
+    }
+}
+
+for (let i = 0; i < X;i++){
+    if (una condicion de salto de iteracion ){
+        continue; // se salta al prox 
+    }
+}
+
+Operador Nullish Coalescing (??)
+
+ resultado =  a ?? b;     // devuelve B si es null o undefinded (que no esta iniciado o esta vacio)
+                                sino devuelve A
+
+
+
+//////  Clase en vivo 2
+
+Siempre que se crea un script, para no tener problemas crearlo con defer y en el head
+
+en la entregas un CSS linkeado es obligatorio
+se puede usar Tailwindcss, bostrap, sass, tradicional etc
+
+Concatenacion con alert se debe realizar con + y en console log puede ser concatenado dos strings con la "," sin usar +
+
+* NO SE UTILIZA VAR *
+
+switch(condicion) {
+    case "valor1" : codigo 1
+    case "valor2" : codigo 2
+    case "valor3" : codigo 3
+    default : codigo predeterminado
+}
+
+Number combertir String en numeros
+
+let numero = Number(prompt("obtener numero"))    // resuelvo para los numeros en general
+
+parseInt   Convierto a enteros
+parseFloat  Convierto a decimales
+
