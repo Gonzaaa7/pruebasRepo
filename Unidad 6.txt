@@ -1,1 +1,24 @@
 Funciones de Orden Superior
+Hight Orden Function
+
+funciones que toman funciones como parametro
+
+// Funciones que retornan o devuelven funciones
+
+ForEach es de posiblemente las primeras funciones de ordenes superior 
+a que es una funcion que reciba otra funcion
+
+Metodos
+
+some   == > func.some
+const existe = meses.some( mes => mes === "Enero")
+
+.reduce
+
+carrito.reduce((Total,item)=> total (item.precio) * item.cant)
+
+
+.filter
+se usa mucho poara los sistemas de borrados
+
+.map
