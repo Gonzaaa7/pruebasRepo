@@ -22,3 +22,6 @@ carrito.reduce((Total,item)=> total (item.precio) * item.cant)
 se usa mucho poara los sistemas de borrados
 
 .map
+
+
+Practicas de filtrado con marcas de auto y carrito de compras

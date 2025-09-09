@@ -1,0 +1,22 @@
+https://github.com/wesbos/JavaScript30
+1 semana para entregar proyecto
+sin console logs, incluir manejo de DOM interctuar con eventos tener almacenado en elm local storage
+DOM
+Windows todo lo que vemos en el browser que hay en browser?
+HTML >>>  HEAD/BODY
+
+Body que es como un array de objetos
+
+QuerySelector selecionando por Etiquetas (h1 p img etc)
+
+document.QuerySelector('h1')
+Para modificar texto de un document
+h1.InnerText
+h1.textContent    
+Cambiar Estilo
+h1.style.color  / size etc
+img.src = "url"
+
+
+
+
