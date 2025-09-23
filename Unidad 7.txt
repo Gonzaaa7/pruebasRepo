@@ -17,6 +17,20 @@ Cambiar Estilo
 h1.style.color  / size etc
 img.src = "url"
 
+innertHTML = ´<h1>gregar o cambiar html</h1>´
 
+QuerySelectorAll(lu li) seleciona los li dentro de los ul
 
+QuerySelector("#IDhtml")
+QuerySelectorAll(".Classe")
+
+createElement
+
+-------------------EVENTOS-------------
+
+AddEventListener("escucha","funcion")
+
+boton.AddEventListener("click", ()=> {                            Ejemplo de boton que cambia el texto de un parrafo x
+    parrafo.textContent = "texto"
+})
 

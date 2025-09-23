@@ -1,0 +1,39 @@
+Trabajar NPM
+en web se trabaja html css js
+    js> modulo 
+
+    Librerias React (cajita de herramientas de Facebook)  Angular
+
+    -Librerias uso cachitos de codigo que necesito y no tengo ganas de programar yo ya que esta ya creado
+
+    -Librerias de interfaces React
+
+Modulos
+    importar fuciones de otro archivo
+    import {  ...  } from "/archivo.js";
+
+    JQuery a modo ejemplo ex libreria q dominaba el mercado antes 
+    query selector ->   ${..}
+
+A las librerias hay que ponerles defer tambien
+
+    sweetalert2.github.io
+    Sweet alert alertas mejores visiblemente
+
+    toastify
+notificaciones visibles chicas
+
+Librerias de manejo de fecha 
+date-fns (libreria grande para proyetos grandes)
+luxon
+
+Crear readme.txt en nuestros proyevtos para
+ explicar que librerias usamos cuales usamos y si usamos una njestra o 
+ una aparte documentar el proyecto es una forma escencial de determinar que se es un buen profesional
+
+ ------Usar defer para no tnener problemas en librerias----
+          y poner arriba de una que se use en otra de abajo 
+
+     No usar -->     document.addeventlistener("domcontentloader", ()=>{ })
+
+     
